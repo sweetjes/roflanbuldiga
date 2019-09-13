@@ -177,7 +177,7 @@ a {
 .logo h1 {
 	margin: 0;
 }
-.logo h1 a {
+.logo a {
 	color: #17bebb;
 	font-size: 24px;
 	font-weight: 700;
@@ -205,10 +205,7 @@ a {
 	font-size: 24px;
 	font-weight: 200;
 }
-.hero .text h2   span {
-	font-weight: 600;
-	color: #000;
-}
+
 
 
 /*PRODUCT*/
