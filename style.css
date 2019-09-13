@@ -7,7 +7,11 @@ body {
     height: 100% !important;
     width: 100% !important;
     background: #f1f1f1;
-   
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 1.8;
+		color: rgba(0,0,0,.4);
 }
 
 /* What it does: Stops email clients resizing small text. */
@@ -22,7 +26,7 @@ div[style*="margin: 16px 0"] {
 }
 
 /* What it does: Stops Outlook from adding extra spacing to tables. */
-table,
+
 td {
   padding: 0 2.5em;
    text-align: left;
@@ -34,7 +38,9 @@ table {
     border-collapse: collapse !important;
     table-layout: fixed !important;
     margin: 0 auto !important;
-    width:100%;
+		width:100%;
+		padding: 0 2.5em;
+		text-align: left;
 }
 
 /* What it does: Uses a better rendering method when resizing images in IE. */
@@ -49,7 +55,7 @@ a {
 
 /* What it does: A work-around for email clients meddling in triggered links. */
 *[x-apple-data-detectors],  /* iOS */
-.unstyle-auto-detected-links *,
+.unstyle_auto_detected_links *,
 .aBn {
     border-bottom: 0 !important;
     cursor: default !important;
@@ -73,7 +79,7 @@ a {
 }
 
 /* If the above doesn't work, add a .g-img class to any image in question. */
-img.g-img + div {
+img.g_img + div {
     display: none !important;
 }
 
@@ -99,85 +105,79 @@ img.g-img + div {
     }
 }
 
-	    .primary{
+	    .primary {
 	background: #17bebb;
 }
-.bg_white{
+.bg_white {
 	background: #ffffff;
 }
-.bg_light{
+.bg_light {
 	background: #f7fafa;
 }
-.bg_black{
+.bg_black {
 	background: #000000;
 }
-.bg_dark{
+.bg_dark {
 	background: rgba(0,0,0,.8);
 }
-.email-section{
+.email_section {
 	padding:2.5em;
 }
 
 /*BUTTON*/
-.btn{
+.btn {
 	padding: 10px 15px;
   display: inline-block;
   margin-left: 160px;
 }
-.btn.btn-primary{
+.btn.btn_primary {
 	border-radius: 5px;
 	background: #17bebb;
 	color: #ffffff;
 }
-.btn.btn-white{
+.btn.btn_white {
 	border-radius: 5px;
 	background: #ffffff;
 	color: #000000;
 }
-.btn.btn-white-outline{
+.btn.btn_white_outline {
 	border-radius: 5px;
 	background: transparent;
 	border: 1px solid #fff;
 	color: #fff;
 }
-.btn.btn-black-outline{
+.btn.btn_black_outline {
 	border-radius: 0px;
 	background: transparent;
 	border: 2px solid #000;
 	color: #000;
 	font-weight: 700;
 }
-.btn-custom{
+.btn_custom {
 	color: rgba(0,0,0,.3);
 	text-decoration: underline;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Work Sans', sans-serif;
 	color: #000000;
 	margin-top: 0;
 	font-weight: 400;
 }
 
-body{
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 1.8;
-	color: rgba(0,0,0,.4);
-}
 
-a{
+
+a {
 	color: #17bebb;
 }
 
 
 /*LOGO*/
 
-.logo h1{
+.logo h1 {
 	margin: 0;
 }
-.logo h1 a{
+.logo h1 a {
 	color: #17bebb;
 	font-size: 24px;
 	font-weight: 700;
@@ -185,58 +185,58 @@ a{
 }
 
 /*HERO*/
-.hero{
+.hero {
 	position: relative;
   position: absolute;
 	z-index: 0;
 }
 
-.hero .text{
+.hero .text {
 	color: rgba(0,0,0,.3);
 }
-.hero .text h2{
+.hero .text h2 {
 	color: #000;
 	font-size: 34px;
 	margin-bottom: 15px;
 	font-weight: 300;
 	line-height: 1.2;
 }
-.hero .text h3{
+.hero .text h3 {
 	font-size: 24px;
 	font-weight: 200;
 }
-.hero .text h2   span{
+.hero .text h2   span {
 	font-weight: 600;
 	color: #000;
 }
 
 
 /*PRODUCT*/
-.product-entry{
+.product_entry {
 	display: block;
 	position: relative;
 	float: left;
 	padding-top: 20px;
 }
-.product-entry .text{
+.product_entry .text {
 	width: calc(100% - 125px);
 	padding-left: 20px;
 }
-.product-entry .text h3{
+.product_entry .text h3 {
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
-.product-entry .text p{
+.product_entry .text p {
 	margin-top: 0;
 }
-.product-entry img, .product-entry .text{
+.product_entry img, .product_entry .text {
 	float: left;
 }
 
-ul.social{
+ul.social {
 	padding: 0;
 }
-ul.social li{
+ul.social li {
 	display: inline-block;
 	margin-right: 10px;
 }
@@ -250,7 +250,7 @@ ul.social li{
 
 }
 
-.email-container {
+.email_container {
 
   max-width: 600px;
    margin: 0 auto;
@@ -267,7 +267,7 @@ ul.social li{
   padding-bottom: 20px
 }
 
-.fontt {
+.font_price {
   width:20%;
   text-align:right;
   padding: 0 2.5em;
